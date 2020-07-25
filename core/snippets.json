@@ -1,0 +1,14 @@
+{
+	"Name of snippets": {
+		"prefix": "rfc",
+		"body": [
+			"import React from 'react'",
+			"",
+			"const ${Component} = () => {",
+			"   return <div />",
+			"}",
+			"export default ${Component};"
+		],
+		"description": "Create functional component from react"
+	}
+}
