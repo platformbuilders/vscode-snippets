@@ -1,0 +1,46 @@
+{
+  "name": "builderssnippets",
+  "description": "Snippets created by Platform Builders.",
+  "version": "1.0.0",
+  "displayName": "Builders Snippets",
+  "publisher": "platformbuilders",
+  "icon": "img/logo.png",
+  "galleryBanner": {
+    "color": "#ffc900",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcelxsilva/builders-snippets"
+  },
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptreact",
+        "path": "./core/snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./core/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./core/snippets-ts.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./core/snippets-ts.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^1.75.0"
+  }
+}
