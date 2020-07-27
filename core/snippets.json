@@ -1,5 +1,5 @@
 {
-	"Name of snippets": {
+	"Component functional React": {
 		"prefix": "rfc",
 		"body": [
 			"import React from 'react'",
@@ -10,5 +10,18 @@
 			"export default ${Component};"
 		],
 		"description": "Create functional component from react"
+	},
+	"Componente functional React Native": {
+		"prefix": "rnfc",
+		"body": [
+			"import React from 'react'",
+			"import { View } from 'react-native'",
+			"",
+			"const ${Component} = () => {",
+			"   return <View />",
+			"}",
+			"export default ${Component};"
+		],
+		"description": "Create functional component from react Native"
 	}
 }

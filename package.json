@@ -1,18 +1,18 @@
 {
   "name": "builderssnippets",
   "description": "Snippets created by Platform Builders.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "displayName": "Builders Snippets",
   "publisher": "platformbuilders",
   "icon": "img/logo.png",
   "galleryBanner": {
-    "color": "#ffc900",
+    "color": "#141F78",
     "theme": "dark"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marcelxsilva/builders-snippets"
+    "url": "https://github.com/platformbuilders/builders-snippets"
   },
   "engines": {
     "vscode": "0.10.x"
