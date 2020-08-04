@@ -1,0 +1,61 @@
+{
+	"Create Styles": {
+		"prefix": "react-styled",
+		"body": [
+			"import styled from 'styled-components'",
+			"",
+			"export const Wrapper = styled.div``;"
+		],
+		"description": "Create styled Structure"
+	},
+	"getTheme structure": {
+		"prefix": "getTheme",
+		"body": [
+			"const ${property} = getTheme('${property}');"
+		],
+		"description": "getTheme structure"
+	},
+	"IfStyle structure": {
+		"prefix": "ifstyle",
+		"body": [
+			"const ${property} = ifStyle('${property}');"
+		],
+		"description": "IfStyle structure"
+	},
+	"Styled component": {
+		"prefix": "stcomp",
+		"body": [
+			"export const $1 = styled($2);"
+		],
+		"description": "Styled component"
+	},
+
+	"main color theme": {
+		"prefix": "colorMain",
+		"body": [
+			"const $1Main = getTheme('$1.main');"
+		],
+		"description": "main color theme"
+	},
+	"light color theme": {
+		"prefix": "colorLight",
+		"body": [
+			"const $1Light = getTheme('$1.light');"
+		],
+		"description": "colorLight theme"
+	},
+	"dark color theme": {
+		"prefix": "colorDark",
+		"body": [
+			"const $1Dark = getTheme('$1.dark');"
+		],
+		"description": "dark color theme"
+	},
+	"contrast color theme": {
+		"prefix": "colorContrast",
+		"body": [
+			"const $1Contrast = getTheme('$1.contrast');"
+		],
+		"description": "contrast color theme"
+	},
+}

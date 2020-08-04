@@ -32,15 +32,24 @@ Lista com todos os Snippets disponíveis para uso
 | ----------------------: | ----------------------------------------------------------------------------- |
 |                `rnfc` |  Cria um Componente **Functional**                                             |
 
+
+### Styles
+
+|                 Prefixo | Conteúdo                                                                      |
+| ----------------------: | ----------------------------------------------------------------------------- |
+|                `getTheme` |  `const <VARIABLE> = getTheme('<PROPERTY>');`                           |
+|                `ifstyle` |  `const <VARIABLE> = getTheme('<PROPERTY>');`                            |
+|                `stcomp` |  `const <NAME = styled(<COMPONENT>);`                                     |
+|                `colorLight` |  `const <PROPERTY>Light = getTheme('<PROPERTY>.light');`              |
+|                `colorMain` |  `const <PROPERTY>Main = getTheme('<PROPERTY>.main');`                 |
+|                `colorDark` |  `const <PROPERTY>Dark = getTheme('<PROPERTY>.dark');`                 |
+|                `colorContrast` |  `const <PROPERTY>Contrast = getTheme('<PROPERTY>.contrast');`     |
+
 ## Autor
 
 👤 **Platform Builders**
 
 * Github: [@platformbuilders](https://github.com/platformbuilders)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
 
 Copyright © 2020 [Platform Builders](https://github.com/platformbuilders).<br />
 This project is [MIT](https://github.com/platformbuilders/builders-snippets/blob/master/LICENSE) licensed.
