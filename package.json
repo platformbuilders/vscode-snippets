@@ -1,8 +1,9 @@
 {
-  "name": "@platformbuilders/snippets",
+  "name": "builders-snippets",
   "description": "Snippets internally used by Digitals/Platform Builders.",
   "version": "0.0.1",
   "displayName": "Builders Snippets",
+  "publisher": "platformbuilders",
   "icon": "icon.png",
   "galleryBanner": {
     "color": "#141F78",
