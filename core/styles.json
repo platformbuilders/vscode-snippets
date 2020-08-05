@@ -1,61 +1,69 @@
 {
 	"Create Styles": {
-		"prefix": "react-styled",
+		"prefix": "str",
 		"body": [
-			"import styled from 'styled-components'",
+			"import styled from 'styled-components';",
 			"",
 			"export const Wrapper = styled.div``;"
 		],
-		"description": "Create styled Structure"
+		"description": "Create styled structure"
 	},
-	"getTheme structure": {
-		"prefix": "getTheme",
+	"Create Styles React Native": {
+		"prefix": "strn",
 		"body": [
-			"const ${property} = getTheme('${property}');"
+			"import styled from 'styled-components/native';",
+			"",
+			"export const Wrapper = styled.View``;"
 		],
-		"description": "getTheme structure"
-	},
-	"IfStyle structure": {
-		"prefix": "ifstyle",
-		"body": [
-			"const ${property} = ifStyle('${property}');"
-		],
-		"description": "IfStyle structure"
+		"description": "Create styled structure from React Native"
 	},
 	"Styled component": {
-		"prefix": "stcomp",
+		"prefix": "stcomponent",
 		"body": [
 			"export const $1 = styled($2);"
 		],
 		"description": "Styled component"
 	},
-
+	"getTheme structure": {
+		"prefix": "stgetTheme",
+		"body": [
+			"const ${property} = getTheme('${property}');"
+		],
+		"description": "getTheme structure"
+	},
+	"ifStyle structure": {
+		"prefix": "stifstyle",
+		"body": [
+			"const ${property} = ifStyle('${property}');"
+		],
+		"description": "ifStyle structure"
+	},
 	"main color theme": {
-		"prefix": "colorMain",
+		"prefix": "stcolorMain",
 		"body": [
 			"const $1Main = getTheme('$1.main');"
 		],
 		"description": "main color theme"
 	},
 	"light color theme": {
-		"prefix": "colorLight",
+		"prefix": "stcolorLight",
 		"body": [
 			"const $1Light = getTheme('$1.light');"
 		],
 		"description": "colorLight theme"
 	},
 	"dark color theme": {
-		"prefix": "colorDark",
+		"prefix": "stcolorDark",
 		"body": [
 			"const $1Dark = getTheme('$1.dark');"
 		],
 		"description": "dark color theme"
 	},
 	"contrast color theme": {
-		"prefix": "colorContrast",
+		"prefix": "stcolorContrast",
 		"body": [
 			"const $1Contrast = getTheme('$1.contrast');"
 		],
 		"description": "contrast color theme"
-	},
+	}
 }
