@@ -42,11 +42,4 @@ Lista com todos os Snippets disponíveis para uso
 |     `colorDark` | `const <PROPERTY>Dark = getTheme('<PROPERTY>.dark');`         |
 | `colorContrast` | `const <PROPERTY>Contrast = getTheme('<PROPERTY>.contrast');` |
 
-## Autor
 
-👤 **Platform Builders**
-
-- Github: [@platformbuilders](https://github.com/platformbuilders)
-
-Copyright © 2020 [Platform Builders](https://github.com/platformbuilders).<br />
-This project is [MIT](https://github.com/platformbuilders/builders-snippets/blob/master/LICENSE) licensed.
