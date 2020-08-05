@@ -36,14 +36,14 @@ Lista com todos os Snippets disponíveis para uso
 
 ### Styles
 
-|         Prefixo | Conteúdo                                                      |
-| --------------: | ------------------------------------------------------------- |
-|      `getTheme` | `const <VARIABLE> = getTheme('<PROPERTY>');`                  |
-|       `ifstyle` | `const <VARIABLE> = getTheme('<PROPERTY>');`                  |
-|        `stcomp` | `const <NAME = styled(<COMPONENT>);`                          |
-|    `colorLight` | `const <PROPERTY>Light = getTheme('<PROPERTY>.light');`       |
-|     `colorMain` | `const <PROPERTY>Main = getTheme('<PROPERTY>.main');`         |
-|     `colorDark` | `const <PROPERTY>Dark = getTheme('<PROPERTY>.dark');`         |
-| `colorContrast` | `const <PROPERTY>Contrast = getTheme('<PROPERTY>.contrast');` |
+|         Prefixo | Conteúdo                                                        |
+| --------------: | --------------------------------------------------------------- |
+|      `stgetTheme` | `const <VARIABLE> = getTheme('<PROPERTY>');`                  |
+|       `stifstyle` | `const <VARIABLE> = getTheme('<PROPERTY>');`                  |
+|     `stcomponent` | `const <NAME = styled(<COMPONENT>);`                          |
+|    `stcolorLight` | `const <PROPERTY>Light = getTheme('<PROPERTY>.light');`       |
+|     `stcolorMain` | `const <PROPERTY>Main = getTheme('<PROPERTY>.main');`         |
+|     `stcolorDark` | `const <PROPERTY>Dark = getTheme('<PROPERTY>.dark');`         |
+| `stcolorContrast` | `const <PROPERTY>Contrast = getTheme('<PROPERTY>.contrast');` |
 
 
