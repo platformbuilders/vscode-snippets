@@ -1,10 +1,10 @@
 {
-  "name": "builderssnippets",
-  "description": "Snippets created by Platform Builders.",
-  "version": "2.0.1",
+  "name": "builders-snippets",
+  "description": "Snippets internally used by Digitals/Platform Builders.",
+  "version": "0.0.1",
   "displayName": "Builders Snippets",
-  "publisher": "deploy",
-  "icon": "img/logo.png",
+  "publisher": "platformbuilders",
+  "icon": "icon.png",
   "galleryBanner": {
     "color": "#141F78",
     "theme": "dark"
