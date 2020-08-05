@@ -13,5 +13,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: "14.x"
+          
+      - name: Install VSCE
+        run: npm i -g vsce
       - name: Publishing
-        run: npx vsce publish minor -p ${{ secrets.VSCE_TOKEN }}
+        run: vsce publish minor -p ${{ secrets.VSCE_TOKEN }}
