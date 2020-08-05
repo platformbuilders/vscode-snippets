@@ -1,9 +1,13 @@
+
 <p align="center">
   <img src="./icon.png" height="100" width="100" alt="Builders Review" />
 </p>
 
 <h1 align="center">Builders Snippets</h1>
 <h4 align="center">Code harder, better, faster, stronger</h4>
+
+![Publish on Marketplace](https://github.com/platformbuilders/builders-snippets/workflows/Publish%20on%20Marketplace/badge.svg)
+
 
 ## Sobre o Projeto
 
