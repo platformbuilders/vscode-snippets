@@ -11,56 +11,56 @@
 	"Create Styles React Native": {
 		"prefix": "strn",
 		"body": [
-			"import styled from 'styled-components/native';",
+			"import styled from 'styled-components';",
 			"",
 			"export const Wrapper = styled.View``;"
 		],
 		"description": "Create styled structure from React Native"
 	},
 	"Styled component": {
-		"prefix": "stcomponent",
+		"prefix": "stcomp",
 		"body": [
 			"export const $1 = styled($2);"
 		],
 		"description": "Styled component"
 	},
-	"getTheme structure": {
-		"prefix": "stgetTheme",
-		"body": [
-			"const ${property} = getTheme('${property}');"
-		],
-		"description": "getTheme structure"
-	},
-	"ifStyle structure": {
-		"prefix": "stifstyle",
+	"IfStyle structure": {
+		"prefix": "ifs",
 		"body": [
 			"const ${property} = ifStyle('${property}');"
 		],
 		"description": "ifStyle structure"
 	},
+	"getTheme structure": {
+		"prefix": "gt",
+		"body": [
+			"const ${property} = getTheme('${property}');"
+		],
+		"description": "getTheme structure"
+	},
 	"main color theme": {
-		"prefix": "stcolorMain",
+		"prefix": "gtm",
 		"body": [
 			"const $1Main = getTheme('$1.main');"
 		],
 		"description": "main color theme"
 	},
 	"light color theme": {
-		"prefix": "stcolorLight",
+		"prefix": "gtl",
 		"body": [
 			"const $1Light = getTheme('$1.light');"
 		],
 		"description": "colorLight theme"
 	},
 	"dark color theme": {
-		"prefix": "stcolorDark",
+		"prefix": "gtk",
 		"body": [
 			"const $1Dark = getTheme('$1.dark');"
 		],
 		"description": "dark color theme"
 	},
 	"contrast color theme": {
-		"prefix": "stcolorContrast",
+		"prefix": "gtc",
 		"body": [
 			"const $1Contrast = getTheme('$1.contrast');"
 		],
