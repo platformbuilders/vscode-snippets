@@ -43,5 +43,5 @@ Lista com todos os Snippets disponíveis para uso
 | `gt`      | `const <VARIABLE> = getTheme('<PROPERTY>');`                  |
 | `gtm`     | `const <PROPERTY>Main = getTheme('<PROPERTY>.main');`         |
 | `gtl`     | `const <PROPERTY>Light = getTheme('<PROPERTY>.light');`       |
-| `gtk`     | `const <PROPERTY>Dark = getTheme('<PROPERTY>.dark');`         |
+| `gtd`     | `const <PROPERTY>Dark = getTheme('<PROPERTY>.dark');`         |
 | `gtc`     | `const <PROPERTY>Contrast = getTheme('<PROPERTY>.contrast');` |

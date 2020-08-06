@@ -53,7 +53,7 @@
 		"description": "colorLight theme"
 	},
 	"dark color theme": {
-		"prefix": "gtk",
+		"prefix": "gtd",
 		"body": [
 			"const $1Dark = getTheme('$1.dark');"
 		],
