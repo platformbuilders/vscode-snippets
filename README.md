@@ -38,12 +38,10 @@ Lista com todos os Snippets disponíveis para uso
 
 |         Prefixo | Conteúdo                                                      |
 | --------------: | ------------------------------------------------------------- |
-|      `getTheme` | `const <VARIABLE> = getTheme('<PROPERTY>');`                  |
-|       `ifstyle` | `const <VARIABLE> = getTheme('<PROPERTY>');`                  |
-|        `stcomp` | `const <NAME = styled(<COMPONENT>);`                          |
-|    `colorLight` | `const <PROPERTY>Light = getTheme('<PROPERTY>.light');`       |
-|     `colorMain` | `const <PROPERTY>Main = getTheme('<PROPERTY>.main');`         |
-|     `colorDark` | `const <PROPERTY>Dark = getTheme('<PROPERTY>.dark');`         |
-| `colorContrast` | `const <PROPERTY>Contrast = getTheme('<PROPERTY>.contrast');` |
-
-
+| `stcomp`  | `const <NAME = styled(<COMPONENT>);`                          |
+| `ifs`     | `const <VARIABLE> = getTheme('<PROPERTY>');`                  |
+| `gt`      | `const <VARIABLE> = getTheme('<PROPERTY>');`                  |
+| `gtm`     | `const <PROPERTY>Main = getTheme('<PROPERTY>.main');`         |
+| `gtl`     | `const <PROPERTY>Light = getTheme('<PROPERTY>.light');`       |
+| `gtd`     | `const <PROPERTY>Dark = getTheme('<PROPERTY>.dark');`         |
+| `gtc`     | `const <PROPERTY>Contrast = getTheme('<PROPERTY>.contrast');` |
