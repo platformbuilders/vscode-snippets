@@ -37,7 +37,25 @@
       {
         "language": "typescriptreact",
         "path": "./core/snippets-ts.json"
+      },
+
+      {
+        "language": "javascriptreact",
+        "path": "./core/styles.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./core/styles.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./core/styles.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./core/styles.json"
       }
+      
     ]
   },
   "devDependencies": {
