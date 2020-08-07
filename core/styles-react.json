@@ -4,21 +4,12 @@
 		"body": [
 			"import styled from 'styled-components';",
 			"",
-			"export const Wrapper = styled.div``;"
+			"export const ${Wrapper} = styled.div``;"
 		],
 		"description": "Create styled structure"
 	},
-	"Create Styles React Native": {
-		"prefix": "strn",
-		"body": [
-			"import styled from 'styled-components';",
-			"",
-			"export const Wrapper = styled.View``;"
-		],
-		"description": "Create styled structure from React Native"
-	},
 	"Styled component": {
-		"prefix": "stcomp",
+		"prefix": "stc",
 		"body": [
 			"export const $1 = styled($2);"
 		],
@@ -65,5 +56,14 @@
 			"const $1Contrast = getTheme('$1.contrast');"
 		],
 		"description": "contrast color theme"
+	},
+	"Create Typography": {
+		"prefix": "stp",
+		"body": [
+			"export const ${Text} = styled(Typography).attrs({",
+				"variant: '${body1}'",
+			  "})``"
+		],
+		"description": "Create Typography"
 	}
 }
