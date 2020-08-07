@@ -49,7 +49,6 @@ Lista com todos os Snippets disponíveis para uso
 | Prefixo | Conteúdo                          |
 | ------: | --------------------------------- |
 | `rnfc` | Cria um Componente **Functional** |
-| `stp`   | Cria estrutura do Typography |
 | `rnfcc` | Cria uma Scene Container |
 | `rnfcx` | Cria um Container com Mobx |
 
@@ -65,3 +64,4 @@ Lista com todos os Snippets disponíveis para uso
 | `gtl`     | `const <PROPERTY>Light = getTheme('<PROPERTY>.light');`       |
 | `gtd`     | `const <PROPERTY>Dark = getTheme('<PROPERTY>.dark');`         |
 | `gtc`     | `const <PROPERTY>Contrast = getTheme('<PROPERTY>.contrast');` |
+| `stp`   | Cria estrutura do Typography |
