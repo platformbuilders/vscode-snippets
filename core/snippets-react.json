@@ -15,5 +15,42 @@
 			""
 		],
 		"description": "Create functional component from react"
+	},
+	"Container functional React": {
+		"prefix": "rfcc",
+		"body": [
+			"import React, { FC } from 'react';",
+			"// import ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} from './${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}'; ",
+			"",
+			"type Props = {};",
+			"",
+			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container:FC<Props> = () => {",
+			"  return <${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} />;",
+			"};",
+			"",
+			"export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container;",
+			""
+		],
+		"description": "Container functional React"
+	},
+	"Container functional React Mobx": {
+		"prefix": "rfcx",
+		"body": [
+			"import React, { FC } from 'react';",
+			"import { inject, observer } from 'mobx-react';",
+			"import ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} from './${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}'; ",
+			"",
+			"type Props = {",
+			"	${2:store}: any",
+			"};",
+			"",
+			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container:FC<Props> = () => {",
+			"  return <${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} />;",
+			"};",
+			"",
+			"export default inject('${2:store}')(observer(${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container));",
+			""
+		],
+		"description": "Container functional React Mobx"
 	}
 }
