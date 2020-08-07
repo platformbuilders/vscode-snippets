@@ -2,25 +2,29 @@
 	"Component functional React": {
 		"prefix": "rfc",
 		"body": [
-			"import React from 'react'",
+			"import React from 'react';",
 			"",
-			"const ${Component} = () => {",
-			"   return <div />",
+			"const ${Component} = (): JSX.Element => {",
+			"  return <div />",
 			"}",
-			"export default ${Component};"
+			"",
+			"export default ${Component};",
+			""
 		],
 		"description": "Create functional component from react"
 	},
 	"Componente functional React Native": {
 		"prefix": "rnfc",
 		"body": [
-			"import React from 'react'",
-			"import { View } from 'react-native'",
+			"import React from 'react';",
+			"import { View } from 'react-native';",
 			"",
-			"const ${Component} = () => {",
-			"   return <View />",
+			"const ${Component} = (): JSX.Element => {",
+			"  return <View />;",
 			"}",
-			"export default ${Component};"
+			"",
+			"export default ${Component};",
+			""
 		],
 		"description": "Create functional component from react Native"
 	}
