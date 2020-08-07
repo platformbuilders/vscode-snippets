@@ -1,0 +1,19 @@
+{
+	"Component functional React": {
+		"prefix": "rfc",
+		"body": [
+			"import React, { FC } from 'react';",
+			"// import { Wrapper } from './styles'; ",
+			"",
+			"type Props = {};",
+			"",
+			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}:FC<Props> = () => {",
+			"  return <div />;",
+			"};",
+			"",
+			"export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};",
+			""
+		],
+		"description": "Create functional component from react"
+	}
+}
