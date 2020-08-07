@@ -24,38 +24,71 @@
     "snippets": [
       {
         "language": "javascriptreact",
-        "path": "./core/snippets.json"
+        "path": "./core/snippets-react.json"
       },
       {
         "language": "javascript",
-        "path": "./core/snippets.json"
+        "path": "./core/snippets-react.json"
       },
       {
         "language": "typescript",
-        "path": "./core/snippets-ts.json"
+        "path": "./core/snippets-react-ts.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./core/snippets-ts.json"
+        "path": "./core/snippets-react-ts.json"
       },
 
       {
         "language": "javascriptreact",
-        "path": "./core/styles.json"
+        "path": "./core/snippets-rn.json"
       },
       {
         "language": "javascript",
-        "path": "./core/styles.json"
+        "path": "./core/snippets-rn.json"
       },
       {
         "language": "typescript",
-        "path": "./core/styles.json"
+        "path": "./core/snippets-rn-ts.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./core/styles.json"
+        "path": "./core/snippets-rn-ts.json"
+      },
+
+      {
+        "language": "javascriptreact",
+        "path": "./core/styles-rn.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./core/styles-rn.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./core/styles-rn-ts.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./core/styles-rn-ts.json"
+      },
+
+      {
+        "language": "javascriptreact",
+        "path": "./core/styles-react.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./core/styles-react.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./core/styles-react-ts.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./core/styles-react-ts.json"
       }
-      
     ]
   },
   "devDependencies": {
