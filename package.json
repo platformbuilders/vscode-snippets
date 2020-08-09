@@ -1,7 +1,7 @@
 {
   "name": "builders-snippets",
   "description": "Snippets internally used by Digitals/Platform Builders.",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "displayName": "Builders Snippets",
   "publisher": "platformbuilders",
   "icon": "icon.png",
