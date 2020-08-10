@@ -37,6 +37,7 @@
       {
         "language": "typescriptreact",
         "path": "./core/snippets.json"
+
       }
     ]
   },
