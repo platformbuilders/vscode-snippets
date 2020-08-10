@@ -6,7 +6,7 @@ Ver [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/) para recomendaç
 
 <a name="0.0.1"></a>
 
-## 0.0.1 (2020-05-08)
+## 0.1.0 (2020-05-08)
 ### Added
 - Adicionado `json`:
     - snippets-ts
@@ -14,7 +14,7 @@ Ver [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/) para recomendaç
     - styles
 - documentação
 
-## 0.0.1 (2020-07-08)
+## 0.2.0 (2020-07-08)
 ### Added
 - Adicionado `json`:
     - snippets-react
@@ -27,3 +27,13 @@ Ver [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/) para recomendaç
     - rfcc
     - rnfcx
     - rfcx
+
+## 0.2.2 (2020-10-08)
+### Added
+- Adicionado `json`:
+    - snippets.json
+- removido
+    - snippets-react.json
+    - snippets-rn.json
+    - styles-react.json
+    - styles-rn.json

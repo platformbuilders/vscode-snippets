@@ -1,0 +1,200 @@
+{
+	"Component functional React": {
+		"prefix": "rfc",
+		"body": [
+			"import React, { FC } from 'react';",
+			"// import { Wrapper } from './styles'; ",
+			"",
+			"type Props = {};",
+			"",
+			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}:FC<Props> = () => {",
+			"  return <div />;",
+			"};",
+			"",
+			"export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};",
+			""
+		],
+		"description": "Create functional component from react"
+	},
+	"Container functional React": {
+		"prefix": "rfcc",
+		"body": [
+			"import React, { FC } from 'react';",
+			"// import ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} from './${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}'; ",
+			"",
+			"type Props = {};",
+			"",
+			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container:FC<Props> = () => {",
+			"  return <${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} />;",
+			"};",
+			"",
+			"export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container;",
+			""
+		],
+		"description": "Container functional React"
+	},
+	"Container functional React Mobx": {
+		"prefix": "rfcx",
+		"body": [
+			"import React, { FC } from 'react';",
+			"import { inject, observer } from 'mobx-react';",
+			"import ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} from './${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}'; ",
+			"",
+			"type Props = {",
+			"	${2:store}: any",
+			"};",
+			"",
+			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container:FC<Props> = () => {",
+			"  return <${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} />;",
+			"};",
+			"",
+			"export default inject('${2:store}')(observer(${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container));",
+			""
+		],
+		"description": "Container functional React Mobx"
+	},
+
+
+	
+
+
+	"Create Styles": {
+		"prefix": "str",
+		"body": [
+			"import styled from 'styled-components';",
+			"",
+			"export const ${Wrapper} = styled.div``;"
+		],
+		"description": "Create styled structure"
+	},
+	"Styled component": {
+		"prefix": "stc",
+		"body": [
+			"export const $1 = styled($2);"
+		],
+		"description": "Styled component"
+	},
+	"IfStyle structure": {
+		"prefix": "ifs",
+		"body": [
+			"const ${property} = ifStyle('${property}');"
+		],
+		"description": "ifStyle structure"
+	},
+	"getTheme structure": {
+		"prefix": "gt",
+		"body": [
+			"const ${property} = getTheme('${property}');"
+		],
+		"description": "getTheme structure"
+	},
+	"main color theme": {
+		"prefix": "gtm",
+		"body": [
+			"const $1Main = getTheme('$1.main');"
+		],
+		"description": "main color theme"
+	},
+	"light color theme": {
+		"prefix": "gtl",
+		"body": [
+			"const $1Light = getTheme('$1.light');"
+		],
+		"description": "colorLight theme"
+	},
+	"dark color theme": {
+		"prefix": "gtd",
+		"body": [
+			"const $1Dark = getTheme('$1.dark');"
+		],
+		"description": "dark color theme"
+	},
+	"contrast color theme": {
+		"prefix": "gtc",
+		"body": [
+			"const $1Contrast = getTheme('$1.contrast');"
+		],
+		"description": "contrast color theme"
+	},
+	"Create Typography": {
+		"prefix": "stp",
+		"body": [
+			"export const ${Text} = styled(Typography).attrs({",
+				"variant: '${body1}'",
+			  "})``"
+		],
+		"description": "Create Typography"
+	},
+
+
+
+
+	"Component functional React": {
+		"prefix": "rnfc",
+		"body": [
+			"import React, { FC } from 'react';",
+			"import { View } from 'react-native';",
+			"// import { Wrapper } from './styles'; ",
+			"",
+			"type Props = {}",
+			"",
+			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}:FC<Props> = () => {",
+			"  return <View />;",
+			"};",
+			"",
+			"export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};",
+			""
+		],
+		"description": "Create functional component from react"
+	},
+	"Container functional RN": {
+		"prefix": "rnfcc",
+		"body": [
+			"import React, { FC } from 'react';",
+			"import ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} from './${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}'; ",
+			"",
+			"type Props = {};",
+			"",
+			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container:FC<Props> = () => {",
+			"  return <${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} />;",
+			"};",
+			"",
+			"export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container;",
+			""
+		],
+		"description": "Container functional RN"
+	},
+	"Container functional RN Mobx": {
+		"prefix": "rnfcx",
+		"body": [
+			"import React, { FC } from 'react';",
+			"import { inject, observer } from 'mobx-react';",
+			"import ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} from './${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}'; ",
+			"",
+			"type Props = {",
+			"	${2:store}: any",
+			"};",
+			"",
+			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container:FC<Props> = () => {",
+			"  return <${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} />;",
+			"};",
+			"",
+			"export default inject('${2:store}')(observer(${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container));",
+			""
+		],
+		"description": "Container functional RN Mobx"
+	},
+
+
+
+
+	"Create Styles": {
+		"prefix": "rnstr",
+		"body": [
+			"import styled from 'styled-components/native';",
+			"",
+			"export const ${Wrapper} = styled.View``;"
+		],
+		"description": "Create styled structure"
+	}
+}
