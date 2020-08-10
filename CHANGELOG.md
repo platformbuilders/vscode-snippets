@@ -27,3 +27,13 @@ Ver [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/) para recomendaç
     - rfcc
     - rnfcx
     - rfcx
+
+## 0.2.2 (2020-10-08)
+### Added
+- Adicionado `json`:
+    - snippets.json
+- removido
+    - snippets-react.json
+    - snippets-rn.json
+    - styles-react.json
+    - styles-rn.json
