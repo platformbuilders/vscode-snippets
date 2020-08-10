@@ -27,21 +27,41 @@ Lista com todos os Snippets disponíveis para uso
 | Prefixo | Conteúdo                          |
 | ------: | --------------------------------- |
 |   `rfc` | Cria um Componente **Functional** |
+|   `rfcc` | Cria uma Scene Container |
+|   `rfcx` | Cria um Container com Mobx |
 
-### React Native
-
-| Prefixo | Conteúdo                          |
-| ------: | --------------------------------- |
-|  `rnfc` | Cria um Componente **Functional** |
-
-### Styles
+### Styles React
 
 |         Prefixo | Conteúdo                                                      |
 | --------------: | ------------------------------------------------------------- |
-| `stcomp`  | `const <NAME = styled(<COMPONENT>);`                          |
+| `stc`  | `const <NAME = styled(<COMPONENT>);`                          |
 | `ifs`     | `const <VARIABLE> = getTheme('<PROPERTY>');`                  |
 | `gt`      | `const <VARIABLE> = getTheme('<PROPERTY>');`                  |
 | `gtm`     | `const <PROPERTY>Main = getTheme('<PROPERTY>.main');`         |
 | `gtl`     | `const <PROPERTY>Light = getTheme('<PROPERTY>.light');`       |
 | `gtd`     | `const <PROPERTY>Dark = getTheme('<PROPERTY>.dark');`         |
 | `gtc`     | `const <PROPERTY>Contrast = getTheme('<PROPERTY>.contrast');` |
+| `stp`     | Cria estrutura do Typography |
+
+
+### React Native
+
+| Prefixo | Conteúdo                          |
+| ------: | --------------------------------- |
+| `rnfc` | Cria um Componente **Functional** |
+| `rnfcc` | Cria uma Scene Container |
+| `rnfcx` | Cria um Container com Mobx |
+
+
+### Styles React Native
+
+|         Prefixo | Conteúdo                                                      |
+| --------------: | ------------------------------------------------------------- |
+| `stc`  | `const <NAME = styled(<COMPONENT>);`                          |
+| `ifs`     | `const <VARIABLE> = getTheme('<PROPERTY>');`                  |
+| `gt`      | `const <VARIABLE> = getTheme('<PROPERTY>');`                  |
+| `gtm`     | `const <PROPERTY>Main = getTheme('<PROPERTY>.main');`         |
+| `gtl`     | `const <PROPERTY>Light = getTheme('<PROPERTY>.light');`       |
+| `gtd`     | `const <PROPERTY>Dark = getTheme('<PROPERTY>.dark');`         |
+| `gtc`     | `const <PROPERTY>Contrast = getTheme('<PROPERTY>.contrast');` |
+| `stp`   | Cria estrutura do Typography |

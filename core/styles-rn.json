@@ -1,0 +1,11 @@
+{
+	"Create Styles": {
+		"prefix": "rnstr",
+		"body": [
+			"import styled from 'styled-components/native';",
+			"",
+			"export const ${Wrapper} = styled.View``;"
+		],
+		"description": "Create styled structure"
+	}
+}
