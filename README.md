@@ -65,3 +65,4 @@ Lista com todos os Snippets disponíveis para uso
 | `gtd`     | `const <PROPERTY>Dark = getTheme('<PROPERTY>.dark');`         |
 | `gtc`     | `const <PROPERTY>Contrast = getTheme('<PROPERTY>.contrast');` |
 | `stp`   | Cria estrutura do Typography |
+| `dimensions`   | `const { width: screenWidth, height: screenHeight } = Dimensions.get('window');` |

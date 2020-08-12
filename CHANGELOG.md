@@ -37,3 +37,11 @@ Ver [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/) para recomendaç
     - snippets-rn.json
     - styles-react.json
     - styles-rn.json
+
+## 0.2.4 (2020-11-08)
+### Updated
+- version to 2.4
+
+## 0.2.4 (2020-1w-08)
+### Added
+- dimensions

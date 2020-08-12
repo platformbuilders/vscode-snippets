@@ -129,7 +129,7 @@
 
 
 
-	"Component functional React": {
+	"Component functional RN": {
 		"prefix": "rnfc",
 		"body": [
 			"import React, { FC } from 'react';",
@@ -188,7 +188,7 @@
 
 
 
-	"Create Styles": {
+	"Create Styles RN": {
 		"prefix": "rnstr",
 		"body": [
 			"import styled from 'styled-components/native';",
@@ -196,5 +196,12 @@
 			"export const ${Wrapper} = styled.View``;"
 		],
 		"description": "Create styled structure"
+	},
+	"Get screen width and height": {
+		"prefix": "dimensions",
+		"body": [
+			"const { width: screenWidth, height: screenHeight } = Dimensions.get('window');",
+		],
+		"description": "Get screen width and height"
 	}
 }

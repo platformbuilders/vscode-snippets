@@ -1,7 +1,7 @@
 {
   "name": "builders-snippets",
   "description": "Snippets internally used by Digitals/Platform Builders.",
-  "version": "0.2.2",
+  "version": "0.2.4",
   "displayName": "Builders Snippets",
   "publisher": "platformbuilders",
   "icon": "icon.png",
@@ -24,19 +24,19 @@
     "snippets": [
       {
         "language": "javascriptreact",
-        "path": "./snippets/snippets.json"
+        "path": "./core/snippets.json"
       },
       {
         "language": "javascript",
-        "path": "./snippets/snippets.json"
+        "path": "./core/snippets.json"
       },
       {
         "language": "typescript",
-        "path": "./snippets/snippets.json"
+        "path": "./core/snippets.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/snippets.json"
+        "path": "./core/snippets.json"
       }
     ]
   },
