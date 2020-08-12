@@ -45,3 +45,4 @@ Ver [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/) para recomendaç
 ## 0.2.4 (2020-1w-08)
 ### Added
 - dimensions
+- store

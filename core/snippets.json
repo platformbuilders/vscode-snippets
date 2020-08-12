@@ -203,5 +203,37 @@
 			"const { width: screenWidth, height: screenHeight } = Dimensions.get('window');",
 		],
 		"description": "Get screen width and height"
+	},
+
+
+
+	"structure store mobx ": {
+		"prefix": "store",
+		"body": [
+			"import { action, observable } from 'mobx';",
+			"import { persist } from 'mobx-persist';",
+			"",
+			"type PropertyAction = {",
+    		"    email: string;",
+    		"    password: string;",
+			"};",
+			"",
+			"export default class $1Store {",
+			"",
+			"@persist('object')",
+			"@observable",
+			"credentials: Partial<PropertyAction> = {};",
+			"",
+			"constructor() {",
+			"// ...",
+			"  }",
+			"",
+			"@action",
+			"login = async ({ email, password }: PropertyAction): Promise<void> => {",
+			"    this.credentials = { cpf, birthday };",
+			"};",
+			"}"
+		],
+		"description": "structure store mobx "
 	}
 }

@@ -29,6 +29,8 @@ Lista com todos os Snippets disponíveis para uso
 |   `rfc` | Cria um Componente **Functional** |
 |   `rfcc` | Cria uma Scene Container |
 |   `rfcx` | Cria um Container com Mobx |
+| `store`   | Cria estrutura de uma Store do Mobx |
+
 
 ### Styles React
 
@@ -51,6 +53,7 @@ Lista com todos os Snippets disponíveis para uso
 | `rnfc` | Cria um Componente **Functional** |
 | `rnfcc` | Cria uma Scene Container |
 | `rnfcx` | Cria um Container com Mobx |
+| `store`   | Cria estrutura de uma Store do Mobx |
 
 
 ### Styles React Native
