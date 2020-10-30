@@ -46,3 +46,7 @@ Ver [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/) para recomendaç
 ### Added
 - dimensions
 - store
+
+## 0.2.6 (2020-30-10)
+### Added
+- stc: Adicionado seção para adicionar atributos CSS

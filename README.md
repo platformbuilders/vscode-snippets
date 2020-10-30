@@ -36,7 +36,7 @@ Lista com todos os Snippets disponíveis para uso
 
 |         Prefixo | Conteúdo                                                      |
 | --------------: | ------------------------------------------------------------- |
-| `stc`  | `const <NAME = styled(<COMPONENT>);`                          |
+| `stc`  | `const <NAME> = styled(<COMPONENT>)``;`                          |
 | `ifs`     | `const <VARIABLE> = getTheme('<PROPERTY>');`                  |
 | `gt`      | `const <VARIABLE> = getTheme('<PROPERTY>');`                  |
 | `gtm`     | `const <PROPERTY>Main = getTheme('<PROPERTY>.main');`         |
@@ -60,7 +60,7 @@ Lista com todos os Snippets disponíveis para uso
 
 |         Prefixo | Conteúdo                                                      |
 | --------------: | ------------------------------------------------------------- |
-| `stc`  | `const <NAME = styled(<COMPONENT>);`                          |
+| `stc`  | `const <NAME> = styled(<COMPONENT>)``;`                          |
 | `ifs`     | `const <VARIABLE> = getTheme('<PROPERTY>');`                  |
 | `gt`      | `const <VARIABLE> = getTheme('<PROPERTY>');`                  |
 | `gtm`     | `const <PROPERTY>Main = getTheme('<PROPERTY>.main');`         |
