@@ -70,7 +70,7 @@
 	"Styled component": {
 		"prefix": "stc",
 		"body": [
-			"export const $1 = styled($2);"
+			"export const $1 = styled($2)`$3`;"
 		],
 		"description": "Styled component"
 	},
