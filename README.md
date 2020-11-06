@@ -44,6 +44,12 @@ Lista com todos os Snippets disponíveis para uso
 | `gtd`     | `const <PROPERTY>Dark = getTheme('<PROPERTY>.dark');`         |
 | `gtc`     | `const <PROPERTY>Contrast = getTheme('<PROPERTY>.contrast');` |
 | `stp`     | Cria estrutura do Typography |
+| `gtsr`     | `const smallRadius = getTheme('smallRadius');` |
+| `gtmr`     | `const mediumRadius = getTheme('mediumRadius');` |
+| `gtlr`     | `const largeRadius = getTheme('largeRadius');` |
+| `gtss`     | `const smallSpacing = getTheme('smallSpacing');` |
+| `gtms`     | `const mediumSpacing = getTheme('mediumSpacing');` |
+| `gtls`     | `const largeSpacing = getTheme('largeSpacing');` |
 
 
 ### React Native
