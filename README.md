@@ -30,7 +30,9 @@ Lista com todos os Snippets disponíveis para uso
 |   `rfcc` | Cria uma Scene Container |
 |   `rfcx` | Cria um Container com Mobx |
 | `store`   | Cria estrutura de uma Store do Mobx |
-
+| `useState`     | `const [value, setValue] = useState(null);` |
+| `useEffect`     | `useEffect(() => { },[])` |
+| `imp`     | `import { } from '~/'';` |
 
 ### Styles React
 
@@ -44,7 +46,13 @@ Lista com todos os Snippets disponíveis para uso
 | `gtd`     | `const <PROPERTY>Dark = getTheme('<PROPERTY>.dark');`         |
 | `gtc`     | `const <PROPERTY>Contrast = getTheme('<PROPERTY>.contrast');` |
 | `stp`     | Cria estrutura do Typography |
-
+| `gtsr`     | `const smallRadius = getTheme('smallRadius');` |
+| `gtmr`     | `const mediumRadius = getTheme('mediumRadius');` |
+| `gtlr`     | `const largeRadius = getTheme('largeRadius');` |
+| `gtss`     | `const smallSpacing = getTheme('smallSpacing');` |
+| `gtms`     | `const mediumSpacing = getTheme('mediumSpacing');` |
+| `gtls`     | `const largeSpacing = getTheme('largeSpacing');` |
+| `imp`     | `import { } from '~/'';` |
 
 ### React Native
 
@@ -54,7 +62,9 @@ Lista com todos os Snippets disponíveis para uso
 | `rnfcc` | Cria uma Scene Container |
 | `rnfcx` | Cria um Container com Mobx |
 | `store`   | Cria estrutura de uma Store do Mobx |
-
+| `useState`     | `const [value, setValue] = useState(null);` |
+| `useEffect`     | `useEffect(() => { },[])` |
+| `imp`     | `import { } from '~/'';` |
 
 ### Styles React Native
 
@@ -69,3 +79,10 @@ Lista com todos os Snippets disponíveis para uso
 | `gtc`     | `const <PROPERTY>Contrast = getTheme('<PROPERTY>.contrast');` |
 | `stp`   | Cria estrutura do Typography |
 | `dimensions`   | `const { width: screenWidth, height: screenHeight } = Dimensions.get('window');` |
+| `gtsr`     | `const smallRadius = getTheme('smallRadius');` |
+| `gtmr`     | `const mediumRadius = getTheme('mediumRadius');` |
+| `gtlr`     | `const largeRadius = getTheme('largeRadius');` |
+| `gtss`     | `const smallSpacing = getTheme('smallSpacing');` |
+| `gtms`     | `const mediumSpacing = getTheme('mediumSpacing');` |
+| `gtls`     | `const largeSpacing = getTheme('largeSpacing');` |
+| `imp`     | `import { } from '~/'';` |

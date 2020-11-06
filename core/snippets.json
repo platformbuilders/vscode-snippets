@@ -7,7 +7,7 @@
 			"",
 			"type Props = {};",
 			"",
-			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}:FC<Props> = () => {",
+			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}: FC<Props> = () => {",
 			"  return <div />;",
 			"};",
 			"",
@@ -24,7 +24,7 @@
 			"",
 			"type Props = {};",
 			"",
-			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container:FC<Props> = () => {",
+			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container: FC<Props> = () => {",
 			"  return <${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} />;",
 			"};",
 			"",
@@ -53,8 +53,29 @@
 		],
 		"description": "Container functional React Mobx"
 	},
-
-
+	"Create useEffect": {
+		"prefix": "useEffect",
+		"body": [
+			"useEffect(() => {",
+				"$1",
+			"},[$2]);"
+		],
+		"description": "Create useEffect"
+	},
+	"Create useState": {
+		"prefix": "useState",
+		"body": [
+			"const [${1:value}, set${2:Value}] = useState(${3:null});" 
+		],
+		"description": "Create useState"
+	},
+	"Create import": {
+		"prefix": "imp",
+		"body": [
+			"import { $1 } from '~/$2';"
+		],
+		"description": "Create import"
+	},
 	
 
 
@@ -70,14 +91,14 @@
 	"Styled component": {
 		"prefix": "stc",
 		"body": [
-			"export const $1 = styled($2)`$3`;"
+			"export const ${1:Component} = styled${2:.div}`$3`;"
 		],
 		"description": "Styled component"
 	},
 	"IfStyle structure": {
 		"prefix": "ifs",
 		"body": [
-			"const ${property} = ifStyle('${property}');"
+			"const $1 = ifStyle('$2');"
 		],
 		"description": "ifStyle structure"
 	},
@@ -119,12 +140,56 @@
 	"Create Typography": {
 		"prefix": "stp",
 		"body": [
-			"export const ${Text} = styled(Typography).attrs({",
-				"variant: '${body1}'",
+			"export const ${1:Text} = styled(Typography).attrs({",
+				"variant: '${2:body1}'",
 			  "})``"
 		],
 		"description": "Create Typography"
 	},
+	"Get Small Radius": {
+		"prefix": "gtsr",
+		"body": [
+			"const smallRadius = getTheme('smallRadius');"
+		],
+		"description": "Get smallRadius of theme "
+	},
+	"Get Medium Radius": {
+		"prefix": "gtmr",
+		"body": [
+			"const mediumRadius = getTheme('mediumRadius');"
+		],
+		"description": "Get mediumRadius of theme "
+	},
+	"Get Large Radius": {
+		"prefix": "gtlr",
+		"body": [
+			"const largeRadius = getTheme('largeRadius');"
+		],
+		"description": "Get largeRadius of theme "
+	},
+	"Get Small Spacing": {
+		"prefix": "gtss",
+		"body": [
+			"const smallSpacing = getTheme('smallSpacing');"
+		],
+		"description": "Get smallSpacing of theme "
+	},
+	"Get Medium Spacing": {
+		"prefix": "gtms",
+		"body": [
+			"const mediumSpacing = getTheme('mediumSpacing');"
+		],
+		"description": "Get mediumSpacing of theme "
+	},
+	"Get Large Spacing": {
+		"prefix": "gtls",
+		"body": [
+			"const largeSpacing = getTheme('largeSpacing');"
+		],
+		"description": "Get largeSpacing of theme "
+	},
+
+
 
 
 
@@ -138,7 +203,7 @@
 			"",
 			"type Props = {}",
 			"",
-			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}:FC<Props> = () => {",
+			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}: FC<Props> = () => {",
 			"  return <View />;",
 			"};",
 			"",
@@ -155,7 +220,7 @@
 			"",
 			"type Props = {};",
 			"",
-			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container:FC<Props> = () => {",
+			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container: FC<Props> = () => {",
 			"  return <${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} />;",
 			"};",
 			"",
@@ -175,7 +240,7 @@
 			"	${2:store}: any",
 			"};",
 			"",
-			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container:FC<Props> = () => {",
+			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container: FC<Props> = () => {",
 			"  return <${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} />;",
 			"};",
 			"",
@@ -200,7 +265,7 @@
 	"Get screen width and height": {
 		"prefix": "dimensions",
 		"body": [
-			"const { width: screenWidth, height: screenHeight } = Dimensions.get('window');",
+			"const { width: screenWidth, height: screenHeight } = Dimensions.get('window');"
 		],
 		"description": "Get screen width and height"
 	},
