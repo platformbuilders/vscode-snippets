@@ -22,51 +22,27 @@ Snippets para criação de components e outros utilitários para React e React N
 
 Lista com todos os Snippets disponíveis para uso
 
+### Geral
+| `afn` | Cria uma arrow function |
+| `clt` | Cria um console.tron.log|
+| `imp`     | `import { } from '~/';` |
+| `useEffect`     | `useEffect(() => { },[])` |
+| `useState`     | `const [value, setValue] = useState(null);` |
+
 ### React
 
 | Prefixo | Conteúdo                          |
 | ------: | --------------------------------- |
 |   `rfc` | Cria um Componente **Functional** |
-|   `rfcc` | Cria uma Scene Container |
-|   `rfcx` | Cria um Container com Mobx |
-| `store`   | Cria estrutura de uma Store do Mobx |
-| `useState`     | `const [value, setValue] = useState(null);` |
-| `useEffect`     | `useEffect(() => { },[])` |
-| `imp`     | `import { } from '~/'';` |
-
-### Styles React
-
-|         Prefixo | Conteúdo                                                      |
-| --------------: | ------------------------------------------------------------- |
-| `stc`  | `const <NAME> = styled(<COMPONENT>)``;`                          |
-| `ifs`     | `const <VARIABLE> = getTheme('<PROPERTY>');`                  |
-| `gt`      | `const <VARIABLE> = getTheme('<PROPERTY>');`                  |
-| `gtm`     | `const <PROPERTY>Main = getTheme('<PROPERTY>.main');`         |
-| `gtl`     | `const <PROPERTY>Light = getTheme('<PROPERTY>.light');`       |
-| `gtd`     | `const <PROPERTY>Dark = getTheme('<PROPERTY>.dark');`         |
-| `gtc`     | `const <PROPERTY>Contrast = getTheme('<PROPERTY>.contrast');` |
-| `stp`     | Cria estrutura do Typography |
-| `gtsr`     | `const smallRadius = getTheme('smallRadius');` |
-| `gtmr`     | `const mediumRadius = getTheme('mediumRadius');` |
-| `gtlr`     | `const largeRadius = getTheme('largeRadius');` |
-| `gtss`     | `const smallSpacing = getTheme('smallSpacing');` |
-| `gtms`     | `const mediumSpacing = getTheme('mediumSpacing');` |
-| `gtls`     | `const largeSpacing = getTheme('largeSpacing');` |
-| `imp`     | `import { } from '~/'';` |
+|   `rstyled` | Inicia styles no react native |
 
 ### React Native
 
 | Prefixo | Conteúdo                          |
 | ------: | --------------------------------- |
 | `rnfc` | Cria um Componente **Functional** |
-| `rnfcc` | Cria uma Scene Container |
-| `rnfcx` | Cria um Container com Mobx |
-| `store`   | Cria estrutura de uma Store do Mobx |
-| `useState`     | `const [value, setValue] = useState(null);` |
-| `useEffect`     | `useEffect(() => { },[])` |
-| `imp`     | `import { } from '~/'';` |
 
-### Styles React Native
+### Styles
 
 |         Prefixo | Conteúdo                                                      |
 | --------------: | ------------------------------------------------------------- |
@@ -78,11 +54,11 @@ Lista com todos os Snippets disponíveis para uso
 | `gtd`     | `const <PROPERTY>Dark = getTheme('<PROPERTY>.dark');`         |
 | `gtc`     | `const <PROPERTY>Contrast = getTheme('<PROPERTY>.contrast');` |
 | `stp`   | Cria estrutura do Typography |
-| `dimensions`   | `const { width: screenWidth, height: screenHeight } = Dimensions.get('window');` |
 | `gtsr`     | `const smallRadius = getTheme('smallRadius');` |
 | `gtmr`     | `const mediumRadius = getTheme('mediumRadius');` |
 | `gtlr`     | `const largeRadius = getTheme('largeRadius');` |
 | `gtss`     | `const smallSpacing = getTheme('smallSpacing');` |
 | `gtms`     | `const mediumSpacing = getTheme('mediumSpacing');` |
 | `gtls`     | `const largeSpacing = getTheme('largeSpacing');` |
-| `imp`     | `import { } from '~/'';` |
+| `imp`     | `import { } from '~/';` |
+| `rnstyled`     | Inicia styles no react native |
