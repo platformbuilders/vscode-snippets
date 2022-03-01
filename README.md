@@ -23,24 +23,28 @@ Snippets para criação de components e outros utilitários para React e React N
 Lista com todos os Snippets disponíveis para uso
 
 ### Geral
-| `afn` | Cria uma arrow function |
-| `clt` | Cria um console.tron.log|
+| Prefixo | Conteúdo                          |
+| ------: | --------------------------------- |
+| `afn` | `Cria uma arrow function` |
+| `clt` | `Cria um console.tron.log`|
 | `imp`     | `import { } from '~/';` |
 | `useEffect`     | `useEffect(() => { },[])` |
 | `useState`     | `const [value, setValue] = useState(null);` |
+
 
 ### React
 
 | Prefixo | Conteúdo                          |
 | ------: | --------------------------------- |
-|   `rfc` | Cria um Componente **Functional** |
-|   `rstyled` | Inicia styles no react native |
+|   `rfc` | `Cria um Componente Functional` |
+|   `rstyled` | `Inicia styles no react native` |
+
 
 ### React Native
 
 | Prefixo | Conteúdo                          |
 | ------: | --------------------------------- |
-| `rnfc` | Cria um Componente **Functional** |
+| `rnfc` | `Cria um Componente Functional` |
 
 ### Styles
 
@@ -53,7 +57,7 @@ Lista com todos os Snippets disponíveis para uso
 | `gtl`     | `const <PROPERTY>Light = getTheme('<PROPERTY>.light');`       |
 | `gtd`     | `const <PROPERTY>Dark = getTheme('<PROPERTY>.dark');`         |
 | `gtc`     | `const <PROPERTY>Contrast = getTheme('<PROPERTY>.contrast');` |
-| `stp`   | Cria estrutura do Typography |
+| `stp`   | `Cria estrutura do Typography` |
 | `gtsr`     | `const smallRadius = getTheme('smallRadius');` |
 | `gtmr`     | `const mediumRadius = getTheme('mediumRadius');` |
 | `gtlr`     | `const largeRadius = getTheme('largeRadius');` |
@@ -61,4 +65,4 @@ Lista com todos os Snippets disponíveis para uso
 | `gtms`     | `const mediumSpacing = getTheme('mediumSpacing');` |
 | `gtls`     | `const largeSpacing = getTheme('largeSpacing');` |
 | `imp`     | `import { } from '~/';` |
-| `rnstyled`     | Inicia styles no react native |
+| `rnstyled`     | `Inicia styles no react native` |
