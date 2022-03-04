@@ -1,58 +1,5 @@
 {
-	"Component functional React": {
-		"prefix": "rfc",
-		"body": [
-			"import React, { FC } from 'react';",
-			"// import { Wrapper } from './styles'; ",
-			"",
-			"type Props = {};",
-			"",
-			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}: FC<Props> = () => {",
-			"  return <div />;",
-			"};",
-			"",
-			"export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};",
-			""
-		],
-		"description": "Create functional component from react"
-	},
-	"Container functional React": {
-		"prefix": "rfcc",
-		"body": [
-			"import React, { FC } from 'react';",
-			"// import ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} from './${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}'; ",
-			"",
-			"type Props = {};",
-			"",
-			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container: FC<Props> = () => {",
-			"  return <${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} />;",
-			"};",
-			"",
-			"export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container;",
-			""
-		],
-		"description": "Container functional React"
-	},
-	"Container functional React Mobx": {
-		"prefix": "rfcx",
-		"body": [
-			"import React, { FC } from 'react';",
-			"import { inject, observer } from 'mobx-react';",
-			"import ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} from './${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}'; ",
-			"",
-			"type Props = {",
-			"	${2:store}: any",
-			"};",
-			"",
-			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container:FC<Props> = () => {",
-			"  return <${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} />;",
-			"};",
-			"",
-			"export default inject('${2:store}')(observer(${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container));",
-			""
-		],
-		"description": "Container functional React Mobx"
-	},
+		
 	"Create useEffect": {
 		"prefix": "useEffect",
 		"body": [
@@ -75,6 +22,42 @@
 			"import { $1 } from '~/$2';"
 		],
 		"description": "Create import"
+	},
+	"Create arrow function": {
+		"prefix": "afn",
+		"body": [
+			"const ${1:onArrowFunction} = () => {",
+				"${1:console.log('onArrowFunction')}",
+			"};"
+		],
+		"description": "Create arrow function"
+	},
+	"Create console tron": {
+		"prefix": "clt",
+		"body": [
+			"console.tron.log({ data: $1 })"
+		],
+		"description": "Create console.tron.log"
+	},
+
+
+
+	"Component functional React": {
+		"prefix": "rfc",
+		"body": [
+			"import React, { FC } from 'react';",
+			"// import { Wrapper } from './styles'; ",
+			"",
+			"type Props = {};",
+			"",
+			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}: FC<Props> = () => {",
+			"  return <div />;",
+			"};",
+			"",
+			"export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};",
+			""
+		],
+		"description": "Create functional component from react"
 	},
 	
 
@@ -191,9 +174,6 @@
 
 
 
-
-
-
 	"Component functional RN": {
 		"prefix": "rnfc",
 		"body": [
@@ -212,49 +192,9 @@
 		],
 		"description": "Create functional component from react"
 	},
-	"Container functional RN": {
-		"prefix": "rnfcc",
-		"body": [
-			"import React, { FC } from 'react';",
-			"import ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} from './${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}'; ",
-			"",
-			"type Props = {};",
-			"",
-			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container: FC<Props> = () => {",
-			"  return <${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} />;",
-			"};",
-			"",
-			"export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container;",
-			""
-		],
-		"description": "Container functional RN"
-	},
-	"Container functional RN Mobx": {
-		"prefix": "rnfcx",
-		"body": [
-			"import React, { FC } from 'react';",
-			"import { inject, observer } from 'mobx-react';",
-			"import ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} from './${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}'; ",
-			"",
-			"type Props = {",
-			"	${2:store}: any",
-			"};",
-			"",
-			"const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container: FC<Props> = () => {",
-			"  return <${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}} />;",
-			"};",
-			"",
-			"export default inject('${2:store}')(observer(${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}Container));",
-			""
-		],
-		"description": "Container functional RN Mobx"
-	},
-
-
-
 
 	"Create Styles RN": {
-		"prefix": "rnstr",
+		"prefix": "rnstyled",
 		"body": [
 			"import styled from 'styled-components/native';",
 			"",
@@ -262,43 +202,14 @@
 		],
 		"description": "Create styled structure"
 	},
-	"Get screen width and height": {
-		"prefix": "dimensions",
+
+	"Create Styles React": {
+		"prefix": "rstyled",
 		"body": [
-			"const { width: screenWidth, height: screenHeight } = Dimensions.get('window');"
+			"import styled from 'styled-components';",
+			"",
+			"export const ${Wrapper} = styled.div``;"
 		],
-		"description": "Get screen width and height"
-	},
-
-
-
-	"structure store mobx ": {
-		"prefix": "store",
-		"body": [
-			"import { action, observable } from 'mobx';",
-			"import { persist } from 'mobx-persist';",
-			"",
-			"type PropertyAction = {",
-    		"    email: string;",
-    		"    password: string;",
-			"};",
-			"",
-			"export default class $1Store {",
-			"",
-			"@persist('object')",
-			"@observable",
-			"credentials: Partial<PropertyAction> = {};",
-			"",
-			"constructor() {",
-			"// ...",
-			"  }",
-			"",
-			"@action",
-			"login = async ({ email, password }: PropertyAction): Promise<void> => {",
-			"    this.credentials = { cpf, birthday };",
-			"};",
-			"}"
-		],
-		"description": "structure store mobx "
+		"description": "Create styled structure"
 	}
 }
